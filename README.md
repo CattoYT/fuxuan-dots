@@ -1,4 +1,5 @@
 # Smol Xuan Dotfiles
+![Uploading image.png…]()
 
 My shitty dotfiles for the riceathon
 
