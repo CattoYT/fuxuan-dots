@@ -1,0 +1,43 @@
+@import url("file:///home/firefly/Dotfiles/waybar/css/colors.css");
+
+#workspaces {
+    background: linear-gradient(90deg, #ac8fe9 0%, #ba5bc1 70%);
+    /* background-size: 150%; */
+    /* background-color: black; */
+    border-radius: 15px;
+    border: 2px solid #be629d;
+}
+#workspaces button {
+    padding: 0 10px;
+    
+    /*background-color: #DFA4D3;*/
+    margin: 0 01px; /* 5px horizontal spacing */
+    color: #000000;
+    font-size: 20px;
+    opacity: 1;
+
+/*improve this next
+reference:
+https://github.com/flick0/dotfiles/blob/aurora/assets/fetch.png
+*/
+    
+}
+#workspaces button.active {
+    background-color: @buttoncolor; /* Active workspace background */
+    padding: 0 10px;
+    color: #000000;            /* Active workspace text color */
+    background-size: 400% 400%;
+}
+
+#workspaces button:hover {
+    background: #ff79c6;
+}
+
+#workspaces button.focused {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}

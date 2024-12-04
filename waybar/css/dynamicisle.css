@@ -1,0 +1,33 @@
+/* THIS WILL BE INTEGRATED WITH A RUST MODULE EVENTUALLY*/
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+    100% {
+        background-position: 100% 50%;
+
+    }
+
+}
+
+#custom-dynamicisle #window {
+    /* background-color: transparent; */
+    opacity: 1;
+}
+#custom-dynamicisle {
+    background: linear-gradient(90deg, #ac8fe9 0%, #ce83cb 50%, #ac8fe9 100%);
+    /* background-color: rgba(160, 90, 165, 0.473); */
+    background-size: 400%;
+    transition: opacity 1s ease-in-out;
+    animation: gradient 3s reverse infinite;
+    border: 2px solid #be629d;
+    border-radius: 30px;
+}
+
+#custom-dynamicisle.empty  {
+    opacity: 0;  /* Fade to transparent */
+}
+/*make the fade out animation nicer*/

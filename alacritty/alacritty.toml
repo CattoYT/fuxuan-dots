@@ -1,0 +1,20 @@
+[font]
+size = 12.0
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[window]
+opacity = 0.5
+
+[colors.primary]
+background = '#24273A' # base
+foreground = '#CAD3F5' # text
+# Bright and dim foreground colors
+dim_foreground = '#CAD3F5' # text
+bright_foreground = '#CAD3F5' # text
+
+[window.padding]
+x = 15
+y = 15
