@@ -1,5 +1,6 @@
 # Smol Xuan Dotfiles
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/1bc36664-a191-4eb7-9d12-4c6695b7bbc1)
+
 
 My shitty dotfiles for the riceathon
 
