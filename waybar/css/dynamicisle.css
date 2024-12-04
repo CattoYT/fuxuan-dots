@@ -1,4 +1,3 @@
-/* THIS WILL BE INTEGRATED WITH A RUST MODULE EVENTUALLY*/
 
 
 @keyframes gradient {
@@ -30,4 +29,3 @@
 #custom-dynamicisle.empty  {
     opacity: 0;  /* Fade to transparent */
 }
-/*make the fade out animation nicer*/

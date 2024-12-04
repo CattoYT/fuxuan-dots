@@ -1,4 +1,4 @@
-@import url("file:///home/firefly/Dotfiles/waybar/css/colors.css");
+@import './colors.css';
 
 #workspaces {
     background: linear-gradient(90deg, #ac8fe9 0%, #ba5bc1 70%);

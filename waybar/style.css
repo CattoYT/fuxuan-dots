@@ -1,7 +1,6 @@
-@import url("file:///home/firefly/.cache/wal/colors-waybar.css");
-@import url("file:///home/firefly/Dotfiles/waybar/css/workspaces.css");
-@import url("file:///home/firefly/Dotfiles/waybar/css/dynamicisle.css");
-@import url("file:///home/firefly/Dotfiles/waybar/css/colors.css");
+@import "css/workspaces.css";
+@import "css/dynamicisle.css";
+@import "css/colors.css";
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */

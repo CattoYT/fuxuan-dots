@@ -4,7 +4,7 @@ z
 # notification daemon
 dunst &
 
-
+waybar -s ~/Dotfiles/waybar/style.css -c ~/Dotfiles/waybar/config.jsonc
 
 # other
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
